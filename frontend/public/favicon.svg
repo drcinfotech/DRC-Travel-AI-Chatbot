@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" rx="8" fill="#050506"/>
+  <!-- paper plane -->
+  <path d="M6 14 L26 8 L20 25 L17 18 L11 21 Z" stroke="#F472B6" stroke-width="1.5" stroke-linejoin="round" fill="none"/>
+  <!-- fold line -->
+  <line x1="17" y1="18" x2="26" y2="8" stroke="#F472B6" stroke-width="1.3" stroke-linecap="round" opacity="0.6"/>
+</svg>

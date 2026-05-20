@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 DRC Infotech LLP
+Copyright (c) 2025 drcinfotech
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,63 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+────────────────────────────────────────────────────────────────────────────
+
+ADDITIONAL TRAVEL & HOSPITALITY DISCLAIMER
+
+This software is a technical demonstration of conversational AI patterns for
+travel and hospitality use cases. It is NOT:
+
+  • A real online travel agency (OTA), GDS, or aggregator
+  • An IATA-accredited travel agent
+  • Connected to any airline reservation system, hotel inventory, or payment
+    gateway
+  • An immigration consultant, visa-application service, or legal advisor
+
+The included data (flights, hotels, packages, destinations, bookings, riders,
+PNRs, confirmation numbers, fares) is entirely FICTIONAL. Brand names like
+Skyline Air, Northbound, Coastline Express, The Riverstone, Hillview
+Heritage, Desert Pearl, Bayline Boutique, and Marina Crescent are invented
+and do not correspond to any real airline or hotel.
+
+TRAVEL-ADVISORY HONESTY: This software intentionally refuses to make
+sweeping safety or political judgments about destinations. Country-level
+safety is dynamic, region-specific, dependent on nationality and activities,
+and a topic where false confidence has real consequences. For current
+advisories, always rely on official government sources:
+
+  • India:  Ministry of External Affairs — mea.gov.in
+  • US:     travel.state.gov
+  • UK:     gov.uk/foreign-travel-advice
+  • EU:     re-open.europa.eu
+  • Canada: travel.gc.ca
+
+VISA INFORMATION: General visa categories shown in this demo (e.g., the UAE
+visa flow for Dubai) are illustrative. Actual visa requirements vary by
+nationality, passport, travel history, and intended duration, and change
+frequently. For binding information, consult the destination country's
+embassy / consulate or a bar-registered immigration lawyer. This software
+will not act as an immigration consultant for asylum, denials, appeals,
+green-card eligibility, or overstays.
+
+BOOKING DATA: Confirmation numbers, PNRs, and booking IDs shown in this
+demo are fabricated and have no validity with any real airline or hotel.
+This software refuses to generate fake PNRs / confirmation numbers,
+"confirm" bookings outside the actual flow, or look up another traveler's
+booking — these patterns map to real travel scams.
+
+PAYMENT PRIVACY: This software refuses to accept card numbers, CVV, OTP, or
+PIN through chat. Real payment flows must use PCI-DSS-compliant encrypted
+gateways with explicit user consent. Chat is never an appropriate channel
+for payment-instrument data.
+
+WEATHER & LOYALTY: Forecast data and loyalty-program details shown are
+illustrative. Real platforms integrate with weather APIs (OpenWeather, IMD,
+Tomorrow.io) and airline GDS APIs for live data.
+
+Do not deploy this software as a real travel-booking platform without
+substantial modification, IATA / DGCA / equivalent regulatory clearance for
+your jurisdiction, integration with a real GDS (Amadeus, Sabre, Travelport)
+or hotel-inventory provider, proper payment-gateway integration with a
+PCI-DSS-certified provider, and qualified legal review.

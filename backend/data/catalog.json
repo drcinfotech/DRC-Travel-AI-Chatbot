@@ -1,0 +1,287 @@
+{
+  "flights": [
+    {
+      "id": "FL-7821",
+      "airline": "Skyline Air",
+      "flight_number": "SK-201",
+      "from": { "code": "BOM", "city": "Mumbai" },
+      "to":   { "code": "DEL", "city": "Delhi" },
+      "depart": "06:15", "arrive": "08:30", "duration_min": 135,
+      "date": "Dec 12, 2025",
+      "stops": 0, "aircraft": "A320neo",
+      "fare_economy": 5240, "fare_business": 18900,
+      "seats_available": 23, "baggage_kg": 15, "refundable": false
+    },
+    {
+      "id": "FL-7822",
+      "airline": "Northbound",
+      "flight_number": "NB-411",
+      "from": { "code": "BOM", "city": "Mumbai" },
+      "to":   { "code": "DEL", "city": "Delhi" },
+      "depart": "09:45", "arrive": "12:05", "duration_min": 140,
+      "date": "Dec 12, 2025",
+      "stops": 0, "aircraft": "B737-MAX",
+      "fare_economy": 4890, "fare_business": 17400,
+      "seats_available": 9, "baggage_kg": 15, "refundable": true
+    },
+    {
+      "id": "FL-7823",
+      "airline": "Skyline Air",
+      "flight_number": "SK-309",
+      "from": { "code": "BOM", "city": "Mumbai" },
+      "to":   { "code": "DEL", "city": "Delhi" },
+      "depart": "17:30", "arrive": "19:50", "duration_min": 140,
+      "date": "Dec 12, 2025",
+      "stops": 0, "aircraft": "A321neo",
+      "fare_economy": 6120, "fare_business": 19800,
+      "seats_available": 31, "baggage_kg": 20, "refundable": true
+    },
+    {
+      "id": "FL-9012",
+      "airline": "Coastline Express",
+      "flight_number": "CE-77",
+      "from": { "code": "BOM", "city": "Mumbai" },
+      "to":   { "code": "GOI", "city": "Goa" },
+      "depart": "07:50", "arrive": "09:00", "duration_min": 70,
+      "date": "Dec 18, 2025",
+      "stops": 0, "aircraft": "ATR-72",
+      "fare_economy": 3680, "fare_business": null,
+      "seats_available": 5, "baggage_kg": 15, "refundable": false
+    },
+    {
+      "id": "FL-5503",
+      "airline": "Skyline Air",
+      "flight_number": "SK-712",
+      "from": { "code": "DEL", "city": "Delhi" },
+      "to":   { "code": "DXB", "city": "Dubai" },
+      "depart": "21:20", "arrive": "23:40", "duration_min": 200,
+      "date": "Dec 20, 2025",
+      "stops": 0, "aircraft": "B787-9",
+      "fare_economy": 18200, "fare_business": 64500,
+      "seats_available": 47, "baggage_kg": 30, "refundable": true
+    }
+  ],
+  "hotels": [
+    {
+      "id": "HT-3301",
+      "name": "The Riverstone",
+      "city": "Goa", "area": "Calangute",
+      "category": "Resort", "stars": 4,
+      "rating": 4.5, "review_count": 1280,
+      "price_per_night": 6400, "currency": "INR",
+      "amenities": ["Pool", "Beach access", "Free WiFi", "Breakfast included", "Airport shuttle", "Spa"],
+      "room_types": [
+        { "type": "Garden View",  "price": 6400, "size_sqft": 320, "max_guests": 2, "available": 4 },
+        { "type": "Sea View",     "price": 8200, "size_sqft": 360, "max_guests": 2, "available": 2 },
+        { "type": "Family Suite", "price": 12500, "size_sqft": 540, "max_guests": 4, "available": 1 }
+      ],
+      "cancellation": "Free up to 48 hr before check-in",
+      "check_in": "2:00 PM", "check_out": "11:00 AM"
+    },
+    {
+      "id": "HT-3302",
+      "name": "Hillview Heritage",
+      "city": "Manali", "area": "Old Manali",
+      "category": "Heritage Hotel", "stars": 4,
+      "rating": 4.6, "review_count": 890,
+      "price_per_night": 5200, "currency": "INR",
+      "amenities": ["Mountain view", "Fireplace", "Restaurant", "Free WiFi", "Parking", "Bonfire"],
+      "room_types": [
+        { "type": "Deluxe Room",  "price": 5200, "size_sqft": 280, "max_guests": 2, "available": 6 },
+        { "type": "Heritage Suite", "price": 8900, "size_sqft": 420, "max_guests": 2, "available": 2 }
+      ],
+      "cancellation": "Free up to 72 hr before check-in",
+      "check_in": "12:00 PM", "check_out": "10:00 AM"
+    },
+    {
+      "id": "HT-3303",
+      "name": "Desert Pearl",
+      "city": "Jaisalmer", "area": "Sam Sand Dunes",
+      "category": "Tented Camp", "stars": 5,
+      "rating": 4.8, "review_count": 540,
+      "price_per_night": 14200, "currency": "INR",
+      "amenities": ["Luxury tents", "All meals", "Cultural shows", "Camel safari", "Bonfire", "Stargazing"],
+      "room_types": [
+        { "type": "Luxury Tent",    "price": 14200, "size_sqft": 480, "max_guests": 2, "available": 3 },
+        { "type": "Royal Suite Tent","price": 22000, "size_sqft": 700, "max_guests": 3, "available": 1 }
+      ],
+      "cancellation": "Free up to 7 days before check-in",
+      "check_in": "1:00 PM", "check_out": "11:00 AM"
+    },
+    {
+      "id": "HT-3304",
+      "name": "Bayline Boutique",
+      "city": "Mumbai", "area": "Colaba",
+      "category": "Boutique", "stars": 4,
+      "rating": 4.4, "review_count": 1620,
+      "price_per_night": 8900, "currency": "INR",
+      "amenities": ["Rooftop bar", "Sea view", "Free WiFi", "Breakfast included", "Gym", "Concierge"],
+      "room_types": [
+        { "type": "Standard",      "price": 8900,  "size_sqft": 250, "max_guests": 2, "available": 8 },
+        { "type": "Sea View Room", "price": 11400, "size_sqft": 290, "max_guests": 2, "available": 3 }
+      ],
+      "cancellation": "Free up to 24 hr before check-in",
+      "check_in": "3:00 PM", "check_out": "12:00 PM"
+    },
+    {
+      "id": "HT-3305",
+      "name": "Marina Crescent",
+      "city": "Dubai", "area": "Dubai Marina",
+      "category": "Hotel", "stars": 5,
+      "rating": 4.7, "review_count": 3210,
+      "price_per_night": 22500, "currency": "INR",
+      "amenities": ["Marina view", "Infinity pool", "5 restaurants", "Spa", "Beach club access", "Free WiFi"],
+      "room_types": [
+        { "type": "Deluxe Marina View", "price": 22500, "size_sqft": 430, "max_guests": 2, "available": 12 },
+        { "type": "Junior Suite",       "price": 38000, "size_sqft": 720, "max_guests": 3, "available": 4 }
+      ],
+      "cancellation": "Free up to 48 hr before check-in",
+      "check_in": "3:00 PM", "check_out": "12:00 PM"
+    }
+  ],
+  "packages": [
+    {
+      "id": "PKG-7700",
+      "name": "Goa Beach Getaway",
+      "destination": "Goa",
+      "nights": 4, "days": 5,
+      "starts_from": 18900,
+      "currency": "INR",
+      "inclusions": [
+        "Round-trip flights from Mumbai",
+        "4 nights at a 4-star beach resort",
+        "Daily breakfast",
+        "Airport transfers",
+        "1 day cruise with sunset"
+      ],
+      "best_for": ["Couples", "Friends", "Beach lovers"],
+      "highlights": "Calangute • Baga • Old Goa • Dudhsagar Falls",
+      "next_departure": "Dec 18, 2025"
+    },
+    {
+      "id": "PKG-7701",
+      "name": "Manali Snow Trail",
+      "destination": "Manali",
+      "nights": 5, "days": 6,
+      "starts_from": 24400,
+      "currency": "INR",
+      "inclusions": [
+        "Volvo Delhi → Manali round trip",
+        "5 nights at a heritage hotel",
+        "Solang Valley + Rohtang Pass excursions",
+        "Daily breakfast & dinner",
+        "Local sightseeing in private cab"
+      ],
+      "best_for": ["Snow lovers", "Honeymooners", "Adventure"],
+      "highlights": "Old Manali • Hidimba Temple • Solang • Rohtang Pass",
+      "next_departure": "Dec 22, 2025"
+    },
+    {
+      "id": "PKG-7702",
+      "name": "Royal Rajasthan",
+      "destination": "Jaipur · Jodhpur · Jaisalmer",
+      "nights": 7, "days": 8,
+      "starts_from": 42800,
+      "currency": "INR",
+      "inclusions": [
+        "Round-trip flights from Mumbai",
+        "Heritage hotels in all 3 cities",
+        "Private chauffeur-driven car",
+        "All sightseeing & monument tickets",
+        "1 night at Sam Sand Dunes tented camp"
+      ],
+      "best_for": ["Culture", "History", "Photographers"],
+      "highlights": "Amber Fort • Mehrangarh • Sam Sand Dunes • Patwon Ki Haveli",
+      "next_departure": "Jan 6, 2026"
+    },
+    {
+      "id": "PKG-7703",
+      "name": "Dubai City + Desert",
+      "destination": "Dubai",
+      "nights": 5, "days": 6,
+      "starts_from": 68900,
+      "currency": "INR",
+      "inclusions": [
+        "Round-trip flights from Delhi",
+        "5 nights at a 5-star Marina hotel",
+        "Burj Khalifa 124th floor entry",
+        "Desert safari with BBQ dinner",
+        "Dhow cruise on Dubai Creek",
+        "Visa assistance (charges as applicable)"
+      ],
+      "best_for": ["First-time international", "Families", "Shoppers"],
+      "highlights": "Burj Khalifa • Desert Safari • Marina • Old Dubai",
+      "next_departure": "Dec 20, 2025"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "BK-44102",
+      "type": "flight",
+      "reference": "PNR: 8KQ4RT",
+      "summary": "SK-309 · BOM → DEL",
+      "date": "Dec 12, 2025",
+      "pax": 2,
+      "amount": 12240,
+      "status": "Confirmed",
+      "checkin_open": "Dec 12 · 03:30 PM"
+    },
+    {
+      "id": "BK-44103",
+      "type": "hotel",
+      "reference": "Confirmation: HT88122",
+      "summary": "The Riverstone · Goa",
+      "date": "Dec 13–17, 2025",
+      "pax": 2,
+      "amount": 25600,
+      "status": "Confirmed",
+      "checkin_open": "Dec 13 · 2:00 PM"
+    }
+  ],
+  "destinations": [
+    {
+      "id": "DEST-GOA",
+      "name": "Goa",
+      "country": "India",
+      "best_season": "Nov – Feb",
+      "summary": "Beaches, Portuguese heritage, easy-going vibe. Calangute and Baga in the north for nightlife; Palolem and Agonda in the south for quieter sands.",
+      "ideal_trip_days": "3 – 5",
+      "highlights": ["Beaches & shacks", "Old Goa churches", "Dudhsagar Falls", "Sunset cruises", "Spice plantations"],
+      "currency": "INR", "language": "English / Konkani / Hindi",
+      "visa_note": "Domestic — no visa required for Indian citizens"
+    },
+    {
+      "id": "DEST-MAN",
+      "name": "Manali",
+      "country": "India",
+      "best_season": "Dec – Feb (snow) or Mar – Jun (pleasant)",
+      "summary": "Himalayan hill town in Himachal Pradesh. Apple orchards, snow activities at Solang, and the gateway to Rohtang Pass when it's open.",
+      "ideal_trip_days": "4 – 6",
+      "highlights": ["Old Manali cafés", "Solang Valley", "Rohtang Pass (seasonal)", "Hidimba Temple", "Jogini Falls"],
+      "currency": "INR", "language": "Hindi / English",
+      "visa_note": "Domestic — no visa required for Indian citizens"
+    },
+    {
+      "id": "DEST-JAI",
+      "name": "Jaisalmer",
+      "country": "India",
+      "best_season": "Oct – Mar",
+      "summary": "The Golden City in the Thar Desert — yellow sandstone fort that's still inhabited, ornate havelis, and tented camps in Sam Sand Dunes.",
+      "ideal_trip_days": "2 – 3",
+      "highlights": ["Jaisalmer Fort", "Patwon Ki Haveli", "Sam Sand Dunes", "Camel safari", "Bada Bagh"],
+      "currency": "INR", "language": "Hindi / Rajasthani / English",
+      "visa_note": "Domestic — no visa required for Indian citizens"
+    },
+    {
+      "id": "DEST-DXB",
+      "name": "Dubai",
+      "country": "UAE",
+      "best_season": "Nov – Mar",
+      "summary": "Modern skyline meets old souks. Excellent for first-time international travelers — easy infrastructure, English widely spoken, INR-friendly via Dirham (AED).",
+      "ideal_trip_days": "4 – 6",
+      "highlights": ["Burj Khalifa", "Desert Safari", "Dubai Mall", "Marina", "Old Dubai (Bur Dubai + Deira)"],
+      "currency": "AED", "language": "Arabic / English",
+      "visa_note": "Visa required for Indian citizens · 14-day, 30-day, and 60-day options available — check the UAE embassy or your travel agent for current requirements"
+    }
+  ]
+}
