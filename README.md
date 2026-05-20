@@ -1,8 +1,8 @@
-# ✈️ Trip Assistant — Travel & Hospitality AI Chatbot
+# ✈️ DRC Trip Assistant — Travel & Hospitality AI Chatbot
 
 A production-grade conversational AI demo for the travel and hospitality industry. Built with **Python + FastAPI** on the backend and **React + Vite + Tailwind** on the frontend, with a **travel-safety-first** architecture and rich response blocks for flights, hotels, packages, destinations, itineraries, bookings, weather, and visa information.
 
-> ⚠️ **Demo only.** Trip Assistant is not a real OTA, IATA-accredited agent, GDS, or immigration consultant. All flights, hotels, packages, PNRs, and confirmations are fictional. The bot uses a generic functional name ("Trip Assistant") rather than a brand persona — this is intentional, since descriptive terms cannot be trademarked as brands for the same goods.
+> ⚠️ **Demo only.** DRC Trip Assistant is not a real OTA, IATA-accredited agent, GDS, or immigration consultant. All flights, hotels, packages, PNRs, and confirmations are fictional. The bot uses a generic functional name ("DRC Trip Assistant") rather than a brand persona — this is intentional, since descriptive terms cannot be trademarked as brands for the same goods.
 
 ![CI](https://img.shields.io/github/actions/workflow/status/drcinfotech/Travel-AI-Chatbot/ci.yml?branch=main&label=tests)
 ![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-3776AB?logo=python&logoColor=white)
@@ -245,7 +245,7 @@ This is a **demonstration project**. It is not production-ready travel software.
 
 ### A note on the name
 
-Like the Education, Real Estate, and Food projects in this series, Trip Assistant uses a **generic functional name** rather than an invented brand. Descriptive terms describing the actual function of a tool cannot be claimed as trademarks for those same goods, which is the trademark-safest pattern for a portfolio/demo project. If you fork this to launch commercially, you'll need to pick a distinctive brand name and clear it with a trademark attorney.
+Like the Education, Real Estate, and Food projects in this series, DRC Trip Assistant uses a **generic functional name** rather than an invented brand. Descriptive terms describing the actual function of a tool cannot be claimed as trademarks for those same goods, which is the trademark-safest pattern for a portfolio/demo project. If you fork this to launch commercially, you'll need to pick a distinctive brand name and clear it with a trademark attorney.
 
 ---
 
